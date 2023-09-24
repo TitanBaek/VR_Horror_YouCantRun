@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5193924550955916801}
   - component: {fileID: 746217533105656436}
   - component: {fileID: 526518393997984221}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Left Controller
   m_TagString: GameController
   m_Icon: {fileID: 0}
@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 4954286895428260394}
   - component: {fileID: 746217534657630868}
   - component: {fileID: 6266139137749722335}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Right Controller
   m_TagString: GameController
   m_Icon: {fileID: 0}
@@ -4395,11 +4395,11 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.6650944, g: 0.8945421, b: 1, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 98.74247
-  m_InnerSpotAngle: 21.80208
+  m_Color: {r: 0.8, g: 0.9490196, b: 1, a: 1}
+  m_Intensity: 1.2
+  m_Range: 15
+  m_SpotAngle: 60
+  m_InnerSpotAngle: 35
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0

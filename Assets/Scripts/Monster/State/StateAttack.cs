@@ -18,7 +18,6 @@ public class StateAttack : MonsterStateBase<Mannequin>
         owner.HorrorLight.enabled = true;
         owner.Agent.speed = 0;
         GameManager.Sound.PlaySound(audioClip, Audio.UISFX, owner.transform.position, 0.6f);
-        MannequinJumpScare();
         owner.StartCoroutine(RegenMonster());
     }
             
@@ -42,7 +41,7 @@ public class StateAttack : MonsterStateBase<Mannequin>
 
     public override void LateUpdate()
     {
-
+        MannequinJumpScare();
     }
 
     public override void Setup()

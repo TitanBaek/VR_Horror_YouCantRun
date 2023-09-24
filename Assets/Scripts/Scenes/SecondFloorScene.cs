@@ -23,11 +23,10 @@ public class SecondFloorScene : BaseScene
         }
     }
 
-    //debug
-    //private void Start()
-    //{
-    //    sceneChanger.OpenDoor();
-    //}
+    protected override void Start()
+    {
+        GameManager.Monster.InitSpawnArray();
+    }
 
     protected override IEnumerator LoadingRoutine()
     {
